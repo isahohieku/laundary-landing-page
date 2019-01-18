@@ -1,0 +1,31 @@
+
+
+.bgImage{
+    background-image: url('../../assets/img/header-bg.svg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: bottom;
+
+    &2{
+        transform: rotate(180deg);
+        background-position: bottom;
+        background-image: url('../../assets/img/header-bg.svg');
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+}
+
+.max-h-500{
+    max-height: 450px !important;
+    overflow: hidden !important;
+}
+
+.dash{
+    height: 1px;
+    width: 80px;
+    background-color: #8327ce;
+}
+
+header{
+    height: 80vh;
+}

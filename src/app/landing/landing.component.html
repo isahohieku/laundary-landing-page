@@ -1,0 +1,539 @@
+<div class="container-fluid px-0">
+  <header class="bgImage pb-5 mb-5">
+    <!-- Navigation bar -->
+    <nav class="pt-5 px-5">
+      <div class="row d-flex justify-content-betwwen">
+        <div class="col px-5">
+          <h3 class="text-light">Laundary Service</h3>
+        </div>
+        <div class="col d-flex justify-content-end px-5" #menuButtonWrapper>
+          <!-- <p class="pr-2 text-light text-uppercase font-weight-light text-small d-inline">menu</p> -->
+          <a class="mousePointer menuToggle d-flex justify-content-center align-items-center" (click)="toggleMenu()"><span
+              class="hamburger-menu-button-open" #MenuStatus id="MenuIcon"></span></a>
+          <!-- <i class="fa fa-2x text-light fa-bars"></i> -->
+        </div>
+      </div>
+    </nav>
+
+    <!-- Jumbotron -->
+    <div class="container h-100">
+      <div class="row h-100">
+        <div class="col d-flex align-items-end pb-5">
+          <img src="assets/img/hero.png" alt="Hero Image" class="w-100">
+        </div>
+
+        <!-- Right Col -->
+        <div class="col pt-4 d-flex align-items-center">
+          <div class="container">
+            <h1 class="text-light text-uppercase">A Laundary Company Landing Page</h1>
+            <p class="text-light">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eveniet
+              commodi, nihil reprehenderit atque laudantium eaque sequi harum ea! Amet cum nemo tempore harum
+              dignissimos
+              maiores veniam consequuntur accusantium illum sapiente.</p>
+
+            <div class="row">
+              <div class="col-4">
+                <button class="btn bg-light font-weight-light w-100 py-3 text-primary">Download App</button>
+              </div>
+              <div class="col-4">
+                <button class="btn text-light border-light font-weight-light w-100 py-3">Learn more</button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <!-- Main Part -->
+  <main class="">
+    <div class="px-5 py-5 mt-5">
+
+      <!-- Service Features -->
+      <div class="row mt-5 pt-5">
+        <div class="col">
+          <h1 class="text-uppercase text-center">Our Service features</h1>
+        </div>
+      </div>
+      <div class="row d-flex justify-content-center">
+        <div class="col-6 pb-5 pt-2">
+          <p class="text-secondary text-center">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eveniet
+            commodi, nihil reprehenderit atque laudantium eaque sequi harum ea! Amet cum nemo tempore harum dignissimos
+            maiores veniam consequuntur accusantium illum sapiente.</p>
+        </div>
+      </div>
+
+      <!-- Feature Row -->
+      <div class="row mt-5">
+        <!-- Left Col -->
+        <div class="col pt-5">
+          <div class="container">
+            <div class="row d-flex justify-content-end">
+              <div class="col-8">
+                <div class="container">
+                  <!-- First Item in row -->
+                  <div class="row">
+                    <div class="col">
+                      <p class="text-large text-right">Mild Water</p>
+                      <p class="text-secondary text-justify text-small">Lorem ipsum dolor sit amet consectetur
+                        adipisicing elit. Ipsa impedit autem nemo provident quae.</p>
+                    </div>
+                    <div class="col-2">
+                      <img src="assets/img/drop.svg" alt="A shirt" width="40">
+                    </div>
+                  </div>
+
+                  <!-- Second item in row -->
+                  <div class="row mt-5">
+                    <div class="col">
+                      <p class="text-large text-right">Mild soap</p>
+                      <p class="text-secondary text-justify text-small">Lorem ipsum dolor sit amet consectetur
+                        adipisicing elit. Ipsa impedit autem nemo provident quae.</p>
+                    </div>
+                    <div class="col-2">
+                      <img src="assets/img/soap.svg" alt="A shirt" width="40">
+                    </div>
+                  </div>
+
+                  <!-- Third item in row -->
+                  <div class="row mt-5">
+                    <div class="col">
+                      <p class="text-large text-right">Neatly Washed</p>
+                      <p class="text-secondary text-justify text-small">Lorem ipsum dolor sit amet consectetur
+                        adipisicing elit. Ipsa impedit autem nemo provident quae.</p>
+                    </div>
+                    <div class="col-2">
+                      <img src="assets/img/bubbles.svg" alt="A shirt" width="40">
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- middle col -->
+        <div class="col-4">
+          <!-- Washing Mashing Illuatration -->
+          <img src="assets/img/washing-machine.svg" class="w-100" alt="Image of a Washing Machine">
+        </div>
+
+        <!-- Right Col -->
+        <div class="col pt-5">
+          <div class="container">
+            <div class="row d-flex justify-content-start">
+              <div class="col-8">
+                <div class="container">
+                  <!-- First Item in row -->
+                  <div class="row">
+                    <div class="col-2">
+                      <img src="assets/img/clean.svg" alt="A shirt" width="40">
+                    </div>
+                    <div class="col">
+                      <p class="text-large text-left">Sparkling Fresh</p>
+                      <p class="text-secondary text-justify text-small">Lorem ipsum dolor sit amet consectetur
+                        adipisicing elit. Ipsa impedit autem nemo provident quae.</p>
+                    </div>
+                  </div>
+
+                  <!-- Second item in row -->
+                  <div class="row mt-5">
+                    <div class="col-2">
+                      <img src="assets/img/iron.svg" alt="A shirt" width="40">
+                    </div>
+                    <div class="col">
+                      <p class="text-large text-left">Carefully Pressed</p>
+                      <p class="text-secondary text-justify text-small">Lorem ipsum dolor sit amet consectetur
+                        adipisicing elit. Ipsa impedit autem nemo provident quae.</p>
+                    </div>
+                  </div>
+
+                  <!-- Third item in row -->
+                  <div class="row mt-5">
+                    <div class="col-2">
+                      <img src="assets/img/fashion.svg" alt="A shirt" width="40">
+                    </div>
+                    <div class="col">
+                      <p class="text-large text-left">Readily Delivered</p>
+                      <p class="text-secondary text-justify text-small">Lorem ipsum dolor sit amet consectetur
+                        adipisicing elit. Ipsa impedit autem nemo provident quae.</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Another Feature Row -->
+      <div class="row d-flex justify-content-center mt-5 pt-5">
+        <div class="col-9 mt-5 pt-5">
+          <div class="row mt-5 pt-5">
+            <!-- Left Col -->
+            <div class="col">
+              <div class="container">
+                <div class="row">
+                  <div class="col-10">
+                    <h1 class="text-uppercase">Our Awesome App</h1>
+                    <p class="text-small text-secondary mt-3 text-justify">Lorem ipsum dolor sit amet, consectetur
+                      adipisicing elit.
+                      Repudiandae aliquid ipsum tempore harum unde, quos odit officiis, blanditiis voluptatibus magni
+                      quia eum est quibusdam non modi totam fugiat, odio at.</p>
+                    <p class="text-small text-secondary text-justify">Lorem ipsum dolor sit amet, consectetur
+                      adipisicing elit.
+                      Repudiandae aliquid ipsum tempore harum unde, quos odit officiis, blanditiis voluptatibus magni
+                      quia eum est quibusdam non modi totam fugiat, odio at.</p>
+
+                  </div>
+                </div>
+
+                <!-- Icons Grid -->
+                <div class="row">
+                  <div class="col-10 mt-4">
+                    <div class="container">
+                      <div class="row">
+                        <div class="col">
+                          <p class="text-center">
+                            <i class="fas fa-coins fa-2x text-primary"></i>
+                          </p>
+                          <p class="font-weight-bold text-center">Affordable</p>
+                          <p class="text-secondary text-small text-center">Lorem, ipsum dolor sit amet consectetur
+                            adipisicing</p>
+                        </div>
+
+                        <div class="col">
+                          <p class="text-center">
+                            <img src="assets/img/delivery-man.svg" alt="Delivery Man" width="35" class="d-inline">
+                          </p>
+                          <p class="font-weight-bold text-center">Home Pickup</p>
+                          <p class="text-secondary text-small text-center">Lorem, ipsum dolor sit amet consectetur
+                            adipisicing</p>
+                        </div>
+
+                        <div class="col">
+                          <p class="text-center">
+                            <i class="fas fa-truck fa-2x text-primary"></i>
+                          </p>
+                          <p class="font-weight-bold text-center">Home Delivery</p>
+                          <p class="text-secondary text-small text-center">Lorem, ipsum dolor sit amet consectetur
+                            adipisicing</p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+                <!-- Get App -->
+                <div class="row">
+                  <div class="col-10">
+                    <div class="container">
+                      <div class="row mt-4">
+                        <div class="col-4">
+                          <img src="assets/img/get-app-andriod.png" alt="Get Andriod App" class="w-100">
+                        </div>
+                        <div class="col-4">
+                          <img src="assets/img/get-app-apple.png" alt="Get Apple App" class="w-100">
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <!-- Right Col -->
+            <div class="col-6 text-center">
+              <img src="assets/img/phone.png" alt="An Image" class="w-50 d-inline">
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Goals -->
+    <div class="container-fluid mt-5 pt-5">
+      <!-- First Row -->
+      <div class="row no-gutter max-h-500 mt-5">
+
+        <!-- Avatar -->
+        <div class="col px-0">
+          <div>
+            <img src="assets/img/washing-machine-booth.jpg" alt="Laundary Outlet" class="w-100">
+          </div>
+        </div>
+
+        <!-- Write Up -->
+        <div class="col bg-secondary2 px-0 d-flex align-items-center">
+          <div class="my-5 py-5">
+            <h2 class="font-weight-bold text-center">A Header for Goal</h2>
+            <div class="d-flex justify-content-center">
+              <span class="dash"></span>
+            </div>
+            <div class="container">
+              <div class="row justify-content-center">
+                <div class="col-9">
+                  <p class="text-center text-secondary mt-5">Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                    Labore aliquid eum totam ullam velit vitae commodi cum, aperiam similique nostrum delectus vel
+                    ipsum laudantium temporibus sunt pariatur soluta iusto molestiae!</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Second Row -->
+      <div class="row no-gutter max-h-500">
+        <!-- Write Up -->
+        <div class="col bg-secondary2 px-0 d-flex align-items-center">
+          <div class="my-5 py-5">
+            <h2 class="font-weight-bold text-center">A Header for Goal</h2>
+            <div class="justify-content-center d-flex">
+              <span class="dash"></span>
+            </div>
+            <div class="container">
+              <div class="row justify-content-center">
+                <div class="col-9">
+                  <p class="text-center text-secondary mt-5">Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                    Labore aliquid eum totam ullam velit vitae commodi cum, aperiam similique nostrum delectus vel
+                    ipsum laudantium temporibus sunt pariatur soluta iusto molestiae!</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Avatar -->
+        <div class="col px-0">
+          <div>
+            <img src="assets/img/dry-cleaning.jpg" alt="Laundary Outlet" class="w-100">
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Testimony Section -->
+    <div class="container pt-5 mt-5">
+      <!-- Customers testimony -->
+      <h1 class="text-center text-uppercase mt-5">Customers Reviews</h1>
+      <div class="row d-flex justify-content-center">
+        <div class="col-8">
+          <p class="text-secondary text-center font-weight-light">Lorem ipsum dolor sit amet, consectetur adipisicing
+            elit.
+            Adipisci aut tempore
+            sunt, ut deleniti non quo vitae, natus exercitationem minus </p>
+        </div>
+      </div>
+      <div class="row">
+        <!-- Left Navigation -->
+        <div class="col d-flex align-items-center justify-content-center">
+          <div (click)='prevSlide()' class="mousePointer">
+            <img src="assets/img/navigation.svg" alt="Navigate Left">
+          </div>
+        </div>
+        <!-- Carousel -->
+        <div class="col-8 mt-5 pt-2">
+          <div id="carouselExampleSlidesOnly" class="carousel slide" data-ride="carousel">
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <p class="text-center text-xxx-large my-5 text-primary"><i class="fas fa-quote-left"></i></p>
+                <p class="font-italic text-secondary font-weight-light text-center">Lorem ipsum dolor sit amet,
+                  consectetur
+                  adipisicing elit. Adipisci aut tempore
+                  sunt, ut deleniti non quo vitae, natus exercitationem minus vero corrupti, aspernatur cum porro!
+                  Cupiditate totam enim nam eligendi?</p>
+
+                <!-- Quote Border -->
+                <div class="text-center mt-5">
+                  <!-- CSS Cheat to center Image -->
+                  <img src="assets/img/quote.svg" alt="Quote Border" class="d-inline">
+                </div>
+
+                <!-- Testimony Avatar -->
+                <div class="d-flex justify-content-center mt-5">
+                  <div class="rounded-avatar">
+                    <img src="assets/img/black1.png" alt="Black Man" class="w-100">
+                  </div>
+                </div>
+                <!-- Name and designation -->
+                <p class="text-center text-small text-uppercase text-primary mb-0">Mariam Eluma</p>
+                <p class="text-secondary text-center font-italic">CEO, Hobeei</p>
+              </div>
+              <div class="carousel-item">
+                <p class="text-center text-xxx-large my-5 text-primary text-center"><i class="fas fa-quote-left"></i></p>
+                <p class="font-italic text-secondary font-weight-light">Lorem ipsum dolor sit amet, consectetur
+                  adipisicing elit. Adipisci aut tempore
+                  sunt, ut deleniti non quo vitae, natus exercitationem minus vero corrupti, aspernatur cum porro!
+                  Cupiditate totam enim nam eligendi?</p>
+
+                <!-- Quote Border -->
+                <div class="text-center mt-5">
+                  <!-- CSS Cheat to center Image -->
+                  <img src="assets/img/quote.svg" alt="Quote Border" class="d-inline">
+                </div>
+
+                <!-- Testimony Avatar -->
+                <div class="d-flex justify-content-center mt-5">
+                  <div class="rounded-avatar">
+                    <img src="assets/img/black2.png" alt="Black Man" class="w-100">
+                  </div>
+                </div>
+                <!-- Name and designation -->
+                <p class="text-center text-small text-uppercase text-primary mb-0">Mariam Eluma</p>
+                <p class="text-secondary text-center font-italic">CEO, Hobeei</p>
+              </div>
+              <div class="carousel-item">
+                <p class="text-center text-xxx-large my-5 text-primary"><i class="fas fa-quote-left"></i></p>
+                <p class="font-italic text-secondary font-weight-light text-center">Lorem ipsum dolor sit amet,
+                  consectetur
+                  adipisicing elit. Adipisci aut tempore
+                  sunt, ut deleniti non quo vitae, natus exercitationem minus vero corrupti, aspernatur cum porro!
+                  Cupiditate totam enim nam eligendi?</p>
+
+                <!-- Quote Border -->
+                <div class="text-center mt-5">
+                  <!-- CSS Cheat to center Image -->
+                  <img src="assets/img/quote.svg" alt="Quote Border" class="d-inline">
+                </div>
+
+                <!-- Testimony Avatar -->
+                <div class="d-flex justify-content-center mt-5">
+                  <div class="rounded-avatar">
+                    <img src="assets/img/black3.jpg" alt="Black Man" class="w-100">
+                  </div>
+                </div>
+                <!-- Name and designation -->
+                <p class="text-center text-small text-uppercase text-primary mb-0">Mariam Eluma</p>
+                <p class="text-secondary text-center font-italic">CEO, Hobeei</p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Right Navigation -->
+        <div class="col d-flex align-items-center justify-content-center">
+          <div (click)='nextSlide()' class="mousePointer">
+            <img src="assets/img/navigation.svg" alt="Navigate Right" class="rot-180">
+          </div>
+        </div>
+      </div>
+    </div>
+  </main>
+
+  <!-- Footer -->
+  <footer class="position-relative">
+
+    <!-- Background SVG -->
+    <div class="bgImage2 h-100 position-absolute w-100"></div>
+
+    <!-- Contact Section -->
+    <div class="container mt-5 pt-5">
+      <div class="row mt-5 pt-5">
+        <div class="col mt-5 pt-5">
+          <h1 class="text-center text-uppercase text-light mt-5">Contact</h1>
+
+          <!-- Contact Form -->
+          <form class="mt-5">
+            <div class="row">
+              <div class="col">
+                <label for="fullname" class="text-light my-4">Full name</label>
+                <input type="text" class="form-control text-field" id="fullname">
+              </div>
+              <div class="col">
+                <label for="email" class="text-light my-4">Email</label>
+                <input type="email" class="form-control text-field" id="email">
+              </div>
+            </div>
+            <div class="form-group mt-4">
+              <label for="subject" class="text-light my-4">Subject</label>
+              <input type="text" class="form-control text-field" id="subject">
+            </div>
+            <div class="form-group">
+              <label for="message" class="text-light my-4">Message</label>
+              <textarea class="form-control text-field" id="message" rows="3"></textarea>
+            </div>
+            <div class="row">
+              <div class="col d-flex justify-content-center">
+                <button class="btn bg-light text-primary px-5 py-2 mt-3">Send</button>
+              </div>
+            </div>
+          </form>
+
+        </div>
+      </div>
+    </div>
+
+    <!-- Contact Address Section -->
+    <div class="container-fluid mt-5 pt-5 px-5 bg-light">
+      <p class="text-light text-large">Company Favicon</p>
+      <div class="row mt-5 pt-5 bg-light">
+
+        <!-- Contact -->
+        <div class="col">
+          <h3 class="text-light text-capitalize mb-4">Find Us</h3>
+          <p class="text-light">Block 2, Flat 4, Nsadup Close, Off Calabar Street</p>
+          <p class="text-light">Garki Area 7 Abuja</p>
+
+          <p class="text-light mt-3">isahohieku@gmail.com</p>
+          <p class="text-light">+2348036133002</p>
+        </div>
+
+        <!-- Newsletter subscription -->
+        <div class="col">
+          <h3 class="text-light text-capitalize text-center">Subscribe</h3>
+          <form class="form-inline w-100 mt-4">
+            <div class="container">
+              <div class="row no-gutter">
+                <div class="col px-0 bg-light d-flex align-items-center py-0">
+                  <!-- <label class="sr-only" for="subscribe">Subscribe</label> -->
+                  <input type="email" class="px-3 mr-sm-2 w-100 h-100 mb-0 mr-0 border-0 text-large" id="subscribe" placeholder="Subscribe for Newsletter">
+                </div>
+                <div class="col-3 px-0 bg-primary-light">
+                  <button type="submit" class="btn text-light py-3 text-large h-100 w-100 border-0">Submit</button>
+                </div>
+              </div>
+            </div>
+          </form>
+        </div>
+
+        <!-- Socials -->
+        <div class="col">
+          <h3 class="text-light text-capitalize text-right mb-4">Socials</h3>
+          <p class="text-right"><a href="https://www.github.com/isahohieku" target="_blank"><i class="fab fa-github fa-2x text-light"></i></a></p>
+          <p class="text-right"><a href="https://www.behance.net/isahohiekufa98" target="_blank"><i class="fab fa-behance fa-2x text-light"></i></a></p>
+          <p class="text-right"><a href="https://dribbble.com/isahohieku" target="_blank"><i class="fab fa-dribbble fa-2x text-light"></i></a></p>
+          <p class="text-right"><a href="https://www.linkedin.com/in/isah-ohieku-b982a6164" target="_blank"><i class="fab fa-linkedin fa-2x text-light"></i></a></p>
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="col py-5 mt-5">
+          <!-- Copyright -->
+          <p class="text-center text-light text-large">Copyright &copy;2019 IsahDesignedIt</p>
+        </div>
+      </div>
+    </div>
+
+
+  </footer>
+</div>
+
+<div class="menuCard bg-light" #mainMenu>
+  <div class="container h-100">
+    <div class="row h-100">
+      <div class="col h-100 d-flex align-items-center">
+        <ul class="w-100" id="navList">
+          <li class="text-uppercase text-primary text-center text-xxx-large font-weight-light py-3 mousePointer"><a
+              title="Home">Home</a></li>
+          <li class="text-uppercase text-primary text-center text-xxx-large font-weight-light py-3 mousePointer"><a
+              title="Features">Features</a></li>
+          <li class="text-uppercase text-primary text-center text-xxx-large font-weight-light py-3 mousePointer"><a
+              title="FAQ">FAQ</a></li>
+          <li class="text-uppercase text-primary text-center text-xxx-large font-weight-light py-3 mousePointer"><a
+              title="Contact">Contact</a></li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</div>
